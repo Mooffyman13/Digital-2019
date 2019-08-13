@@ -1,0 +1,55 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #494949;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #B22E20;
+}
+.image{
+    margin:auto;
+    align-content: center;
+}
+body{
+    width:75%;
+    margin:auto;
+}
+body {
+ background-image: url("images/f.jpg");
+ background-color: #cccccc;
+ background-repeat: repeat;
+ background-position: left;
+ background-size: 1000px 1000px;
+}
+.text{
+    font-size: 20px;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.description{
+    font-size: 18px;
+    font-family: sans-serif;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.swatch{
+    margin-left: 30%;
+}
